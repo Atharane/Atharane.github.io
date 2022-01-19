@@ -1,0 +1,154 @@
+header {
+  font-size: 6vw;
+  font-weight: 800;
+  margin: 0px 20px;
+  font-weight: bold;
+  max-width: 44vw;
+}
+
+h3 {
+  color: rgb(34, 34, 34);
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0px 20px;
+}
+
+#info {
+  font-size: 12px;
+  margin: 20px 20px;
+  max-width: 44vw;
+}
+
+.hero_button {
+  padding: 10px 20px;
+  background: linear-gradient(
+    105deg,
+    rgba(132, 144, 255, 1) 42%,
+    rgba(99, 188, 252, 1) 100%
+  );
+  width: fit-content;
+  margin: 20px 20px;
+}
+
+.hero_button > a {
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.hero_button:hover {
+  border-radius: 0px;
+  box-shadow: 4px 6px 16px rgba(132, 144, 255, 0.4),
+    6px 4px 10px rgba(99, 188, 252, 0.3);
+}
+
+#hero-image {
+  width: 30vw;
+  min-width: 200px;
+}
+
+.bio {
+  max-width: 44vw;
+  margin-top: 20px;
+}
+
+.bio-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px 8%;
+}
+
+.counter {
+  color: #f9f9ff;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.work-widget {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 60px 0px;
+}
+
+.task {
+  color: #f9f9ff;
+  font-size: 14px;
+  min-width: 140px;
+  font-weight: 300;
+}
+
+.work_wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  /* align-items: center; */
+  background: rgb(132, 144, 255);
+  background: linear-gradient(
+    107deg,
+    rgb(115, 127, 238) 42%,
+    rgb(74, 177, 250) 100%
+  );
+}
+
+.blog_superwrap {
+  margin-bottom: 200px;
+}
+
+.blog_superwrap h3 {
+  box-sizing: border-box;
+  color: rgb(34, 34, 34);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43.2px;
+  width: 96vw;
+  margin: 20px auto;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.blog_superwrap > p {
+  color: rgb(105, 105, 105);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22.75px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.blog-banner {
+  display: flex;
+  justify-content: space-around;
+  width: 92vw;
+  margin: 10px auto;
+}
+
+.blogpost {
+  min-height: 400px;
+  border-radius: 16px;
+  padding: 16px 0 16px 16px;
+}
+
+.blogpost:hover {
+  box-shadow: 15px 15px 30px #dddddf, -15px -15px 30px #ffffff;
+}
+
+.blog-image {
+  width: 26vw;
+  border-radius: 20px;
+}
+
+.blog-banner h4 {
+  max-width: 26vw;
+}
+
+.blog-banner p {
+  max-width: 26vw;
+}
